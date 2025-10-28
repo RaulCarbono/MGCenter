@@ -1,10 +1,9 @@
 interface Props {
   text : string;
+  className: string;
 }
-export const Button = ({text} : Props) => {
+export const Button = ({text, className} : Props) => {
   return (
-    <>
-    <button className="w-48">{text}</button>
-    </>
+    <button className={className}>{text}</button>
   )
 }

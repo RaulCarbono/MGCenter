@@ -1,12 +1,11 @@
 interface Props {
-    placeholder : string;
+    placeholder?: string;
+    className?: string;
 }
 
 
-export const Input = ({placeholder} : Props) => {
+export const Input = ({placeholder, className} : Props) => {
   return (
-    <div>
-        <input type="text" placeholder={placeholder} />
-    </div>
+        <input className={className} type="text" placeholder={placeholder}/>
   )
 }
