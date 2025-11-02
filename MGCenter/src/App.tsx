@@ -1,11 +1,13 @@
-import './App.css'
-import { Login } from './components/pages/Login'
+// import './App.css'
+import { Dashboard } from './components/pages/Dashboard'
+// import { Login } from './components/pages/Login'
 
 function App() {
 
   return (
     <>
-      <Login />
+      {/* <Login /> */}
+      <Dashboard />
     </>
   )
 }
